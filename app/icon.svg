@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Cute black dog">
+  <rect width="128" height="128" rx="24" fill="#f7f3ec" />
+  <g fill="#111111">
+    <circle cx="42" cy="48" r="14" />
+    <circle cx="86" cy="48" r="14" />
+    <ellipse cx="64" cy="72" rx="34" ry="30" />
+  </g>
+  <circle cx="52" cy="66" r="4.5" fill="#f7f3ec" />
+  <circle cx="76" cy="66" r="4.5" fill="#f7f3ec" />
+  <ellipse cx="64" cy="82" rx="8" ry="5.5" fill="#2f2f2f" />
+  <path d="M56 91c2.8 3 5.5 4.4 8 4.4s5.2-1.4 8-4.4" fill="none" stroke="#2f2f2f" stroke-linecap="round" stroke-width="3.8" />
+</svg>
