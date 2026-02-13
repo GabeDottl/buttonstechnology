@@ -1,0 +1,88 @@
+.page {
+  flex: 1;
+  padding: 24px;
+  font-family: var(--font-geist-sans);
+}
+
+.main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 40px 0 60px;
+}
+
+.hero {
+  margin-bottom: 56px;
+}
+
+.eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--foreground);
+  max-width: 580px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 560px;
+}
+
+.features {
+  display: grid;
+  gap: 40px;
+  margin-bottom: 56px;
+}
+
+.feature {
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 36px 32px;
+  box-shadow: 0 8px 24px rgba(22, 22, 22, 0.05);
+}
+
+.feature h2 {
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.closing {
+  text-align: center;
+  font-size: 16px;
+  color: var(--subtle);
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+  }
+
+  .feature {
+    padding: 28px 24px;
+  }
+}

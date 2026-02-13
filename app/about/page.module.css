@@ -1,0 +1,54 @@
+.page {
+  flex: 1;
+  padding: 24px;
+  font-family: var(--font-geist-sans);
+}
+
+.main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 40px 0 60px;
+}
+
+.eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.main h1 {
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--foreground);
+  margin-bottom: 32px;
+}
+
+.body {
+  display: grid;
+  gap: 18px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 600px;
+}
+
+.founded {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--subtle);
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .body {
+    font-size: 17px;
+  }
+}

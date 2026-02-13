@@ -1,4 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,15 +14,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Buttons Technology, LLC",
-  description: "Simple software, delivered well.",
+  title: "Buttons Technology",
+  description: "Personal AI tools that work the way you think.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

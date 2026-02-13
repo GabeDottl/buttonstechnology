@@ -1,0 +1,48 @@
+.page {
+  flex: 1;
+  padding: 24px;
+  font-family: var(--font-geist-sans);
+}
+
+.main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 40px 0 60px;
+}
+
+.main h1 {
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+  margin-bottom: 8px;
+}
+
+.effective {
+  font-size: 14px;
+  color: var(--subtle);
+  margin-bottom: 40px;
+}
+
+.body {
+  display: grid;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.body a {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
+
+.body a:hover {
+  color: var(--accent-hover);
+}
+
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 26px;
+  }
+}
