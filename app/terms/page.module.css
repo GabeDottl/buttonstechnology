@@ -18,6 +18,15 @@
   margin-bottom: 8px;
 }
 
+.eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
 .effective {
   font-size: 14px;
   color: var(--subtle);

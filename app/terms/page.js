@@ -98,6 +98,14 @@ export default function TermsPage() {
           </section>
 
           <section>
+            <h2>App-Specific Terms</h2>
+            <p>
+              Spark: Daily Motivation has its own app-specific terms at{" "}
+              <a href="/spark/terms">/spark/terms</a>.
+            </p>
+          </section>
+
+          <section>
             <h2>Contact</h2>
             <p>
               Questions about these terms can be sent to{" "}
