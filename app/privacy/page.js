@@ -37,10 +37,7 @@ export default function PrivacyPage() {
           </p>
           <p>
             Spark: Daily Motivation has its own app-specific privacy policy at{" "}
-            <a href="/motivational-quotes/privacy.html">
-              /motivational-quotes/privacy.html
-            </a>
-            .
+            <a href="/spark/privacy">/spark/privacy</a>.
           </p>
           <p>
             Questions can be sent to{" "}

@@ -30,7 +30,7 @@ const faqs = [
         Yes. Spark has no account, no ads, and no cross-app tracking. Your
         saved quotes, likes, dislikes, preferences, reminder settings, and
         personalization profile stay on your iPhone. See the{" "}
-        <Link href="/motivational-quotes/privacy.html">Spark privacy policy</Link>{" "}
+        <Link href="/spark/privacy">Spark privacy policy</Link>{" "}
         for details.
       </>
     ),
