@@ -3,7 +3,7 @@ import styles from "../../privacy/page.module.css";
 export const metadata = {
   title: "Spark Privacy Policy | Buttons Technology",
   description:
-    "Privacy policy for Spark: Daily Motivation by Buttons Technology, LLC.",
+    "Privacy policy for Spark: Daily Motivation, including on-device personalization, anonymous recommendation signals, opt-out controls, and data use.",
 };
 
 export default function SparkPrivacyPage() {
@@ -12,15 +12,16 @@ export default function SparkPrivacyPage() {
       <main className={styles.main}>
         <p className={styles.eyebrow}>Spark: Daily Motivation</p>
         <h1>Privacy Policy</h1>
-        <p className={styles.effective}>Effective date: May 20, 2026</p>
+        <p className={styles.effective}>Effective date: May 22, 2026</p>
 
         <div className={styles.body}>
           <section className={styles.summary}>
             <p>
               Spark is built to be private by design: no account, no ads, no
               cross-app tracking, and no sale of personal data. Your saved
-              quotes, likes, dislikes, preferences, reminders, and
-              personalization profile stay on your device.
+              quotes and taste profile stay on your device. Spark may use
+              anonymous recommendation signals to improve quote ranking and app
+              quality, and you can opt out in Settings.
             </p>
           </section>
 
@@ -33,23 +34,68 @@ export default function SparkPrivacyPage() {
               entitlement state.
             </p>
             <p>
-              This information is used to choose better quotes for you and to
-              keep the app experience working on your device.
+              Your saved quotes, likes, dislikes, preferences, recommendation
+              history, and taste profile stay on your device. This information
+              is used to choose better quotes for you, remember favorites, run
+              local reminders, and keep the app experience working on your
+              device.
             </p>
           </section>
 
           <section>
-            <h2>Anonymous Interaction Signals</h2>
+            <h2>Anonymous Recommendation Signals</h2>
             <p>
-              Spark may log full anonymous interaction signals to improve app
-              quality, understand which features are useful, and find problems
-              in the experience. No personal identification is included.
+              Spark may collect anonymous recommendation signals so we can
+              understand whether the recommendation experience is useful,
+              improve quote ranking, fix product issues, and measure high-level
+              feature performance. These signals are not used for advertising or
+              cross-app tracking.
             </p>
             <p>
-              These signals may include product interaction events, app state,
-              device-level analytics identifiers, and high-level quote metadata.
-              They do not include your name, email address, saved quote content,
-              personalization profile, or advertising identifiers.
+              Data categories may include product interaction events, app
+              state, coarse recommendation outcomes, device and app diagnostics,
+              privacy-preserving analytics identifiers, and high-level quote or
+              theme metadata. They do not include your name, email address,
+              saved quote content, taste profile, advertising identifiers, or
+              information from other apps.
+            </p>
+            <p>
+              You can opt out of these anonymous recommendation signals in
+              Spark Settings. If you opt out, Spark stops sending future
+              recommendation analytics while on-device personalization continues
+              to work locally.
+            </p>
+          </section>
+
+          <section>
+            <h2>Data Categories And Purposes</h2>
+            <ul>
+              <li>
+                On-device personalization data, used to choose quotes, remember
+                saved quotes, and preserve your preferences locally.
+              </li>
+              <li>
+                Anonymous recommendation signals, used to improve ranking,
+                quality, reliability, and feature decisions.
+              </li>
+              <li>
+                Purchase status from Apple, used to unlock premium access,
+                restore purchases, process refunds, and understand aggregate App
+                Store performance.
+              </li>
+              <li>
+                Support email content, used only to respond to your support
+                request.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Your Choices</h2>
+            <p>
+              You can opt out of anonymous recommendation signals in Settings.
+              You can also stop using Spark at any time, delete the app from
+              your device, or contact us with privacy questions.
             </p>
           </section>
 
@@ -60,7 +106,8 @@ export default function SparkPrivacyPage() {
               <li>No advertising identifiers.</li>
               <li>No cross-app tracking.</li>
               <li>No sale of personal data.</li>
-              <li>No upload of saved quotes, likes, dislikes, or preferences.</li>
+              <li>No sharing of personal data for targeted advertising.</li>
+              <li>No upload of saved quotes, likes, dislikes, or taste profile.</li>
               <li>No social feed or public profile.</li>
             </ul>
           </section>

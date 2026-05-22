@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Spark Privacy Policy
+
+Spark: Daily Motivation's live privacy policy is served from this repo at
+`app/spark/privacy/page.js` and is published at
+`https://www.buttonstechnology.com/spark/privacy`.
+
 ## Getting Started
 
 First, run the development server:
