@@ -78,13 +78,15 @@ export default function SparkPage() {
           </p>
         </div>
         <div className={styles.previewRow} aria-label="Spark app screenshots">
-          {previews.map((preview) => (
+          {previews.map((preview, index) => (
             <figure className={styles.previewArt} key={preview.src}>
               <Image
                 src={preview.src}
                 alt={preview.alt}
                 width={414}
                 height={900}
+                priority={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
                 sizes="(max-width: 720px) 82vw, (max-width: 1020px) 44vw, 24vw"
               />
             </figure>
