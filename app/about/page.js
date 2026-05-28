@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export const metadata = {
   title: "About | Buttons Technology",
-  description: "Building personal AI tools with intention.",
+  description: "An app studio building consumer software for distribution partners.",
 };
 
 export default function AboutPage() {
@@ -10,22 +10,21 @@ export default function AboutPage() {
     <div className={styles.page}>
       <main className={styles.main}>
         <p className={styles.eyebrow}>About</p>
-        <h1>Built with intention.</h1>
+        <h1>A small studio for partner-ready consumer apps.</h1>
         <div className={styles.body}>
           <p>
-            Buttons Technology is a software company focused on building
-            personal AI tools that respect your time, your data, and your
-            intelligence.
+            Buttons Technology designs and builds consumer apps with clear
+            habit loops, native craft, monetization paths, and launch support.
           </p>
           <p>
-            We believe software should adapt to people — not the other way
-            around. Most tools force you into someone else&apos;s workflow. We
-            think your tools should learn yours.
+            We are most useful when a partner already has distribution: an
+            audience, community, creator channel, content library, expert brand,
+            or customer base that needs a product worth returning to.
           </p>
           <p>
-            Our first product is Clawsy, an AI assistant for iOS that creates
-            real applications tailored to how you live and work. No templates,
-            no one-size-fits-all. Just tools that fit.
+            Our current product surface spans Flourish, Spark, Ascent, and
+            Clawsy mocks. The common thread is software that creates a daily
+            reason to come back.
           </p>
           <p className={styles.founded}>Founded 2026.</p>
         </div>

@@ -7,13 +7,7 @@
   --muted: #4b4b4b;
   --subtle: #5a5a5a;
   --border: #e9e4db;
-  --max-width: 760px;
-  --gradient: radial-gradient(
-    circle at 20% 20%,
-    #fff9ed 0%,
-    #f7f3ec 45%,
-    #ede7dd 100%
-  );
+  --max-width: 1180px;
 }
 
 html,
@@ -24,7 +18,7 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--gradient);
+  background: var(--background);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

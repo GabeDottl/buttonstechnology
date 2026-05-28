@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Buttons Technology",
-  description: "Personal AI tools that work the way you think.",
+  description:
+    "Buttons Technology is an app studio building consumer products for distribution partners.",
 };
 
 export default function RootLayout({ children }) {
