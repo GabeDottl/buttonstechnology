@@ -85,7 +85,7 @@ const model = [
   {
     step: "03",
     title: "Launch",
-    copy: "Package the product for co-marketing, creator channels, App Store conversion, and partner handoff.",
+    copy: "Package the product for co-marketing, creator channels, and App Store conversion.",
   },
   {
     step: "04",
