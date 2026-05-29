@@ -38,11 +38,6 @@ const faqs = [
     answer:
       "That is the point of this site. Email us with the audience, distribution channel, category, and commercial model you have in mind.",
   },
-  {
-    question: "Is Clawsy available?",
-    answer:
-      "No. Clawsy is currently represented by mocks only. We label it that way so partners can evaluate the concept without mistaking it for a shipped app.",
-  },
 ];
 
 export default function SupportPage() {

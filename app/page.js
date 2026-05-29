@@ -6,7 +6,7 @@ const products = [
     name: "Flourish",
     kicker: "meetflourish.xyz",
     href: "https://meetflourish.xyz",
-    status: "Live product",
+    status: "App",
     summary:
       "An AI mentor for guided journaling, self-understanding, and behavior change.",
     partnerUse: "A reflective coaching loop for audiences already investing in personal growth.",
@@ -27,26 +27,8 @@ const products = [
     ],
   },
   {
-    name: "Clawsy",
-    kicker: "Local-first AI workspace",
-    href: "/clawsy",
-    status: "Mocks only",
-    summary:
-      "A personal operating system that turns tasks, notes, and goals into executable plans.",
-    partnerUse: "A high-retention daily workspace for users who want AI to act on their real life.",
-    className: styles.clawsy,
-    shots: [
-      {
-        src: "/studio/clawsy/today-mobile.png",
-        alt: "Clawsy mobile Today mockup.",
-        width: 390,
-        height: 844,
-      },
-    ],
-  },
-  {
-    name: "Spark",
-    kicker: "motivational-quotes",
+    name: "Daily Motivation",
+    kicker: "Spark",
     href: "/spark",
     status: "iPhone app",
     summary:
@@ -64,9 +46,9 @@ const products = [
   },
   {
     name: "Ascent",
-    kicker: "Habit mirror",
+    kicker: "Habit Building",
     href: "https://ascent.run",
-    status: "iPhone prototype",
+    status: "iPhone app",
     summary:
       "A habit tracker built around trajectory, not streak shame, with protocol-based routines.",
     partnerUse: "A partner-ready behavior-change app for books, creators, experts, and communities.",
@@ -218,7 +200,7 @@ export default function Home() {
             <h2>Built around daily use, not portfolio theater.</h2>
             <p>
               Each product has a distinct audience, retention loop, and partner
-              path. Clawsy is shown as mocks only.
+              path.
             </p>
           </div>
 
@@ -250,9 +232,6 @@ export default function Home() {
                         height={shot.height}
                         sizes="(max-width: 760px) 44vw, 180px"
                       />
-                      {product.name === "Clawsy" && index === 0 ? (
-                        <figcaption>Mock</figcaption>
-                      ) : null}
                     </figure>
                   ))}
                 </div>

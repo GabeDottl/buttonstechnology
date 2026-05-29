@@ -239,10 +239,6 @@
   background: #eefaf2;
 }
 
-.clawsy {
-  background: #faf7ef;
-}
-
 .spark {
   background: #f5efff;
 }
@@ -318,12 +314,6 @@
   right: 16%;
   width: min(230px, 48%);
   transform: rotate(3deg);
-}
-
-.clawsy .productScreens .phoneFrame {
-  right: 18%;
-  width: min(260px, 55%);
-  transform: rotate(2deg);
 }
 
 .partnerSection {
@@ -514,11 +504,6 @@
   .productScreens .phoneFrame:only-child {
     right: 22%;
     width: min(170px, 48%);
-  }
-
-  .clawsy .productScreens .phoneFrame {
-    right: 14%;
-    width: min(210px, 60%);
   }
 
   .outcomeGrid article,
