@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export const metadata = {
   title: "Contact | Buttons Technology",
   description:
-    "Contact Buttons Technology about distribution partnerships, product support, and studio inquiries.",
+    "Contact Buttons Technology about studio inquiries and product support.",
 };
 
 export default function ContactPage() {
@@ -14,8 +14,8 @@ export default function ContactPage() {
         <p className={styles.eyebrow}>Contact</p>
         <h1>Start the conversation.</h1>
         <p>
-          Tell us about the audience, channel, product category, or support
-          issue. We will route it from there.
+          Tell us about the product category, support issue, or collaboration.
+          We will route it from there.
         </p>
       </section>
 
@@ -26,9 +26,9 @@ export default function ContactPage() {
           <p className={styles.eyebrow}>Useful context</p>
           <h2>What helps us respond well.</h2>
           <ul>
-            <li>Your audience, channel, or community size.</li>
-            <li>The product category you want to explore.</li>
-            <li>Whether this is a partnership, support, or general inquiry.</li>
+            <li>The product category or user problem you want to explore.</li>
+            <li>Whether this is a studio, support, or collaboration inquiry.</li>
+            <li>Your audience, channel, or community context if relevant.</li>
             <li>Any timeline, launch window, or commercial constraints.</li>
           </ul>
         </aside>

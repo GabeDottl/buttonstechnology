@@ -55,14 +55,14 @@ export default function AscentPage() {
 
       <section className={styles.showcase}>
         <div>
-          <p className={styles.eyebrow}>Partner fit</p>
-          <h2>Behavior-change apps for books, experts, and communities.</h2>
+          <p className={styles.eyebrow}>Where it fits</p>
+          <h2>Behavior-change apps for people trying to stay consistent.</h2>
         </div>
         <p>
           Ascent packages habit routines into a concrete product loop: choose a
           commitment, check in quickly, and use trajectory as the retention
-          signal. It is suited to partners with self-improvement, coaching,
-          wellness, education, or creator-led audiences.
+          signal. It fits self-improvement, coaching, wellness, education, and
+          creator-led growth contexts.
         </p>
       </section>
     </main>

@@ -9,7 +9,7 @@ const products = [
     status: "App",
     summary:
       "An AI mentor for guided journaling, self-understanding, and behavior change.",
-    partnerUse: "A reflective coaching loop for audiences already investing in personal growth.",
+    productUse: "A reflective coaching loop for people investing in personal growth.",
     className: styles.flourish,
     shots: [
       {
@@ -33,7 +33,7 @@ const products = [
     status: "iPhone app",
     summary:
       "A private daily motivation app with personalized quote ranking, reminders, and saved favorites.",
-    partnerUse: "A calm consumer ritual for motivation, wellness, creator, and self-improvement audiences.",
+    productUse: "A calm consumer ritual for motivation, wellness, and self-improvement.",
     className: styles.spark,
     shots: [
       {
@@ -51,7 +51,7 @@ const products = [
     status: "iPhone app",
     summary:
       "A habit tracker built around trajectory, not streak shame, with protocol-based routines.",
-    partnerUse: "A partner-ready behavior-change app for books, creators, experts, and communities.",
+    productUse: "A behavior-change app for routines, recovery from dips, and long-term growth.",
     className: styles.ascent,
     shots: [
       {
@@ -65,17 +65,17 @@ const products = [
 ];
 
 const outcomes = [
-  "Distribution-ready consumer apps",
+  "Consumer apps for self-development",
   "Native iOS craft and App Store operations",
-  "Monetization, retention, and content loops",
-  "Partner-specific positioning and launch support",
+  "Retention, monetization, and content loops",
+  "Growth, motivation, and well-being products",
 ];
 
 const model = [
   {
     step: "01",
     title: "Validate",
-    copy: "Pick a partner audience, define the job, and test the smallest app wedge worth distributing.",
+    copy: "Find the user job, define the daily loop, and test the smallest app wedge worth building.",
   },
   {
     step: "02",
@@ -85,12 +85,12 @@ const model = [
   {
     step: "03",
     title: "Launch",
-    copy: "Package the product for co-marketing, creator channels, and App Store conversion.",
+    copy: "Package the product for App Store conversion, a clear story, and real-world use.",
   },
   {
     step: "04",
     title: "Grow",
-    copy: "Use usage data, content supply, pricing tests, and product iteration to improve the funnel.",
+    copy: "Use usage data, content systems, pricing tests, and product iteration to improve the loop.",
   },
 ];
 
@@ -101,14 +101,14 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroCopy}>
             <p className={styles.eyebrow}>Buttons Technology</p>
-            <h1>Premium consumer apps built for distribution partners.</h1>
+            <h1>An app studio for self-development, growth, and well-being.</h1>
             <p>
-              We design, build, launch, and grow app products that partners can
-              put in front of real audiences with confidence.
+              We design, build, launch, and grow consumer apps that help people
+              understand themselves, build better routines, and keep going.
             </p>
             <div className={styles.heroActions}>
               <a href="/contact" className={styles.primaryCta}>
-                Discuss a partnership
+                Start the conversation
               </a>
               <a href="#products" className={styles.secondaryCta}>
                 See products
@@ -155,40 +155,42 @@ export default function Home() {
           ))}
         </section>
 
-        <section className={`${styles.section} ${styles.partnerSection}`}>
+        <section className={`${styles.section} ${styles.focusSection}`}>
           <div className={styles.sectionHeader}>
-            <p className={styles.eyebrow}>For partners</p>
-            <h2>We take distribution risk seriously.</h2>
+            <p className={styles.eyebrow}>Studio focus</p>
+            <h2>Apps built around daily use, not vague transformation.</h2>
             <p>
-              The work is not just UI. A partner-ready app needs a clear wedge,
-              a durable habit loop, monetization, reporting, support, and a
-              launch story that your audience understands.
+              The work is not just UI. A useful self-development app needs a
+              clear promise, a durable loop, careful language, and enough
+              product depth to become part of someone&apos;s real life.
             </p>
           </div>
           <div className={styles.outcomeGrid}>
             <article>
-              <span>Audience fit</span>
-              <h3>Apps mapped to an existing channel.</h3>
+              <span>Human fit</span>
+              <h3>Products tied to real behavior.</h3>
               <p>
-                We shape products around the audience you can actually reach:
-                wellness, motivation, coaching, productivity, books, creators,
-                and expert-led communities.
+                We work in categories where people already seek change:
+                motivation, habits, coaching, journaling, wellness, and
+                practical self-improvement.
               </p>
             </article>
             <article>
-              <span>Commercial loop</span>
-              <h3>Launches with monetization and retention built in.</h3>
+              <span>Daily loop</span>
+              <h3>Rituals with retention built in.</h3>
               <p>
-                Subscriptions, reminders, content systems, saved state, and
-                ongoing optimization are part of the product, not afterthoughts.
+                Reminders, saved state, content systems, streak-adjacent
+                progress, and recovery moments are part of the product, not
+                afterthoughts.
               </p>
             </article>
             <article>
               <span>Operating depth</span>
-              <h3>Strategy, native build, store ops, and iteration.</h3>
+              <h3>Strategy, native build, store ops, and growth.</h3>
               <p>
-                We can move from concept to App Store presence, then keep the
-                product improving after distribution begins.
+                We move from concept to App Store presence, then keep improving
+                the product through usage, pricing, content, and conversion
+                data.
               </p>
             </article>
           </div>
@@ -199,8 +201,8 @@ export default function Home() {
             <p className={styles.eyebrow}>Selected products</p>
             <h2>Built around daily use, not portfolio theater.</h2>
             <p>
-              Each product has a distinct audience, retention loop, and partner
-              path.
+              Each product has a distinct user need, daily ritual, and growth
+              loop.
             </p>
           </div>
 
@@ -217,7 +219,7 @@ export default function Home() {
                   </div>
                   <h3>{product.name}</h3>
                   <p>{product.summary}</p>
-                  <p className={styles.partnerUse}>{product.partnerUse}</p>
+                  <p className={styles.productUse}>{product.productUse}</p>
                   <a href={product.href} className={styles.textLink}>
                     View product
                   </a>

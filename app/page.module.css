@@ -271,7 +271,7 @@
   letter-spacing: 0;
 }
 
-.partnerUse {
+.productUse {
   margin-top: 18px;
   padding-top: 18px;
   border-top: 1px solid rgba(21, 21, 20, 0.14);
@@ -316,7 +316,7 @@
   transform: rotate(3deg);
 }
 
-.partnerSection {
+.focusSection {
   border-block: 1px solid var(--studio-line);
 }
 

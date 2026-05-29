@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 export const metadata = {
   title: "Support & Contact | Buttons Technology",
   description:
-    "Contact Buttons Technology for product support, Spark help, and distribution partnerships.",
+    "Contact Buttons Technology for product support, Spark help, and studio inquiries.",
 };
 
 const paths = [
@@ -20,8 +20,8 @@ const paths = [
     label: "Open contact form",
   },
   {
-    title: "Distribution partnerships",
-    copy: "For partners with an audience, brand, content library, or channel that needs a consumer app.",
+    title: "Studio inquiries",
+    copy: "For new product ideas, collaboration, or category questions.",
     href: "/contact",
     label: "Open contact form",
   },
@@ -34,9 +34,9 @@ const faqs = [
       "Spark has app-specific support, privacy, and terms pages under /spark/support, /spark/privacy, and /spark/terms.",
   },
   {
-    question: "Can partners license or co-launch these products?",
+    question: "Do you work with outside collaborators?",
     answer:
-      "That is the point of this site. Email us with the audience, distribution channel, category, and commercial model you have in mind.",
+      "Yes, selectively. Send the product category, channel context, and commercial model you have in mind.",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function SupportPage() {
         <p className={styles.eyebrow}>Support & contact</p>
         <h1>Get to the right inbox.</h1>
         <p>
-          Product support, Spark help, and partnership conversations all start
+          Product support, Spark help, and studio conversations all start
           here. If you are unsure, email us and we will route it.
         </p>
       </section>
