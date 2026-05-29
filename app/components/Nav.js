@@ -13,7 +13,7 @@ export default function Nav() {
           <Link href="/spark">Spark</Link>
           <Link href="/about">About</Link>
           <Link href="/support">Support</Link>
-          <a href="mailto:hello@buttonstechnology.com">Contact</a>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </nav>

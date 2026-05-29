@@ -68,7 +68,7 @@ export default function AboutPage() {
           <p className={styles.eyebrow}>Founded 2026</p>
           <h2>Built for the gap between audience and product.</h2>
         </div>
-        <a href="mailto:hello@buttonstechnology.com">Contact the studio</a>
+        <a href="/contact">Contact the studio</a>
       </section>
     </main>
   );

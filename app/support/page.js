@@ -16,14 +16,14 @@ const paths = [
   {
     title: "Product support",
     copy: "For Buttons Technology product questions that are not specific to Spark.",
-    href: "mailto:hello@buttonstechnology.com?subject=Product%20support",
-    label: "Email support",
+    href: "/contact",
+    label: "Open contact form",
   },
   {
     title: "Distribution partnerships",
     copy: "For partners with an audience, brand, content library, or channel that needs a consumer app.",
-    href: "mailto:hello@buttonstechnology.com?subject=Distribution%20partnership",
-    label: "Discuss a partnership",
+    href: "/contact",
+    label: "Open contact form",
   },
 ];
 

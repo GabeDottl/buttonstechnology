@@ -11,7 +11,7 @@ export default function Footer() {
         <div className={styles.links}>
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms of Service</Link>
-          <a href="mailto:hello@buttonstechnology.com">Contact</a>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </footer>

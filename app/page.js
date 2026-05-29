@@ -107,7 +107,7 @@ export default function Home() {
               put in front of real audiences with confidence.
             </p>
             <div className={styles.heroActions}>
-              <a href="mailto:hello@buttonstechnology.com" className={styles.primaryCta}>
+              <a href="/contact" className={styles.primaryCta}>
                 Discuss a partnership
               </a>
               <a href="#products" className={styles.secondaryCta}>
@@ -261,7 +261,7 @@ export default function Home() {
             <p className={styles.eyebrow}>Distribution partnerships</p>
             <h2>Bring the audience. We will bring the product machine.</h2>
           </div>
-          <a href="mailto:hello@buttonstechnology.com" className={styles.primaryCta}>
+          <a href="/contact" className={styles.primaryCta}>
             Start the conversation
           </a>
         </section>
