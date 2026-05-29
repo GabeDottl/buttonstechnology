@@ -47,7 +47,7 @@ const products = [
   {
     name: "Ascent",
     kicker: "Habit Building",
-    href: "https://ascent.run",
+    href: "/ascent",
     status: "iPhone app",
     summary:
       "A habit tracker built around trajectory, not streak shame, with protocol-based routines.",
