@@ -1,91 +1,104 @@
 .page {
   flex: 1;
-  padding: 24px;
+  width: min(1180px, calc(100vw - 36px));
+  margin: 0 auto;
+  padding: clamp(52px, 7vw, 92px) 0 clamp(70px, 9vw, 120px);
   font-family: var(--font-geist-sans);
 }
 
-.main {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 40px 0 60px;
+.hero {
+  max-width: 760px;
+  margin-bottom: clamp(34px, 6vw, 62px);
 }
 
 .eyebrow {
-  color: var(--accent);
+  margin-bottom: 18px;
+  color: #4a7463;
+  font-size: 0.78rem;
+  font-weight: 840;
+  letter-spacing: 0;
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.13em;
-  font-weight: 700;
-  margin-bottom: 16px;
 }
 
-.main h1 {
-  font-size: 38px;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
+.hero h1 {
+  margin-bottom: 20px;
+  font-size: 5rem;
+  line-height: 0.94;
+  letter-spacing: 0;
+}
+
+.hero p,
+.pathGrid p,
+.faqs p {
+  color: var(--muted);
+  font-size: clamp(1.02rem, 1.45vw, 1.18rem);
+  line-height: 1.62;
+}
+
+.pathGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+
+.pathGrid article,
+.faqs article {
+  min-height: 270px;
+  padding: clamp(24px, 3vw, 36px);
+  background: var(--panel);
+}
+
+.pathGrid h2,
+.faqs h2 {
+  margin-bottom: 14px;
+  font-size: 1.55rem;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.pathGrid a {
+  display: inline-flex;
+  margin-top: 26px;
+  border-bottom: 1.5px solid currentColor;
   color: var(--foreground);
-  margin-bottom: 40px;
+  font-weight: 780;
+}
+
+.faqSection {
+  padding-top: clamp(74px, 10vw, 122px);
 }
 
 .faqs {
   display: grid;
-  gap: 24px;
-  margin-bottom: 48px;
-}
-
-.faq {
-  background-color: var(--panel);
+  gap: 1px;
+  overflow: hidden;
   border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 28px 28px;
-  box-shadow: 0 8px 24px rgba(22, 22, 22, 0.05);
+  background: var(--border);
 }
 
-.faq h2 {
-  font-size: 17px;
-  font-weight: 600;
-  color: var(--foreground);
-  margin-bottom: 8px;
+.faqs article {
+  min-height: auto;
 }
 
-.faq p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--muted);
-}
-
-.contact {
-  border-top: 1px solid var(--border);
-  padding-top: 32px;
-}
-
-.contact h2 {
-  font-size: 20px;
-  color: var(--foreground);
-  margin-bottom: 8px;
-}
-
-.contact p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--muted);
-}
-
-.contact a {
-  color: var(--accent);
-  border-bottom: 1px solid var(--accent);
-}
-
-.contact a:hover {
-  color: var(--accent-hover);
-}
-
-@media (max-width: 600px) {
-  .main h1 {
-    font-size: 30px;
+@media (max-width: 860px) {
+  .hero h1 {
+    font-size: 3.35rem;
   }
 
-  .faq {
-    padding: 24px 20px;
+  .pathGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pathGrid article {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero h1 {
+    font-size: 2.75rem;
   }
 }

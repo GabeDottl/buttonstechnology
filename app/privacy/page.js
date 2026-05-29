@@ -14,8 +14,10 @@ export default function PrivacyPage() {
 
         <div className={styles.body}>
           <p>
-            Buttons Technology, LLC keeps this policy simple: we collect as
-            little information as possible and do not sell personal data.
+            Buttons Technology, LLC operates a studio website, product pages,
+            and support surfaces for our apps and concepts. We keep this policy
+            simple: we collect as little information as possible and do not sell
+            personal data.
           </p>
           <p>
             If you contact us directly, we may receive your name, email address,
@@ -36,7 +38,7 @@ export default function PrivacyPage() {
             the current version of this policy.
           </p>
           <p>
-            Spark: Daily Motivation has its own app-specific privacy policy at{" "}
+            Spark: Daily Motivation has an app-specific privacy policy at{" "}
             <a href="/spark/privacy">/spark/privacy</a>.
           </p>
           <p>

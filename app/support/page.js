@@ -1,60 +1,83 @@
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "Support | Buttons Technology",
-  description: "Get help with Clawsy and Buttons Technology products.",
+  title: "Support & Contact | Buttons Technology",
+  description:
+    "Contact Buttons Technology for product support, Spark help, and distribution partnerships.",
 };
+
+const paths = [
+  {
+    title: "Spark support",
+    copy: "For Spark: Daily Motivation purchases, reminders, widgets, privacy, or App Store questions.",
+    href: "/spark/support",
+    label: "Open Spark support",
+  },
+  {
+    title: "Product support",
+    copy: "For Buttons Technology product questions that are not specific to Spark.",
+    href: "mailto:hello@buttonstechnology.com?subject=Product%20support",
+    label: "Email support",
+  },
+  {
+    title: "Distribution partnerships",
+    copy: "For partners with an audience, brand, content library, or channel that needs a consumer app.",
+    href: "mailto:hello@buttonstechnology.com?subject=Distribution%20partnership",
+    label: "Discuss a partnership",
+  },
+];
 
 const faqs = [
   {
-    question: "What is Clawsy?",
+    question: "Where are Spark legal and support pages?",
     answer:
-      "Clawsy is a personal AI assistant for iOS that creates real apps tailored to how you live and work. Instead of forcing you into pre-built tools, Clawsy builds custom ones based on what you need.",
+      "Spark has app-specific support, privacy, and terms pages under /spark/support, /spark/privacy, and /spark/terms.",
   },
   {
-    question: "How do I get started?",
+    question: "Can partners license or co-launch these products?",
     answer:
-      "Clawsy is coming soon to the iOS App Store. Once available, download the app and start by telling Clawsy what you need.",
+      "That is the point of this site. Email us with the audience, distribution channel, category, and commercial model you have in mind.",
   },
   {
-    question: "Is my data private?",
+    question: "Is Clawsy available?",
     answer:
-      "Yes. We collect as little data as possible and never sell personal information. Apps that Clawsy builds run locally on your device. See our privacy policy for details.",
-  },
-  {
-    question: "How do I contact support?",
-    answer:
-      "Send us an email at hello@buttonstechnology.com. We read every message and respond as quickly as we can.",
+      "No. Clawsy is currently represented by mocks only. We label it that way so partners can evaluate the concept without mistaking it for a shipped app.",
   },
 ];
 
 export default function SupportPage() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <p className={styles.eyebrow}>Support</p>
-        <h1>How can we help?</h1>
+    <main className={styles.page}>
+      <section className={styles.hero}>
+        <p className={styles.eyebrow}>Support & contact</p>
+        <h1>Get to the right inbox.</h1>
+        <p>
+          Product support, Spark help, and partnership conversations all start
+          here. If you are unsure, email us and we will route it.
+        </p>
+      </section>
 
+      <section className={styles.pathGrid} aria-label="Contact paths">
+        {paths.map((path) => (
+          <article key={path.title}>
+            <h2>{path.title}</h2>
+            <p>{path.copy}</p>
+            <a href={path.href}>{path.label}</a>
+          </article>
+        ))}
+      </section>
+
+      <section className={styles.faqSection}>
+        <p className={styles.eyebrow}>FAQ</p>
         <div className={styles.faqs}>
           {faqs.map((faq) => (
-            <div key={faq.question} className={styles.faq}>
+            <article key={faq.question}>
               <h2>{faq.question}</h2>
               <p>{faq.answer}</p>
-            </div>
+            </article>
           ))}
         </div>
-
-        <div className={styles.contact}>
-          <h2>Get in touch</h2>
-          <p>
-            For anything else, reach us at{" "}
-            <a href="mailto:hello@buttonstechnology.com">
-              hello@buttonstechnology.com
-            </a>
-            .
-          </p>
-        </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
